@@ -11,7 +11,7 @@ output:
 ### Repository
 
 Hello everyone, this is the repository I have created for the course <a ref="http://stat545.com/Classroom/">**STAT 545A**</a>,
-So what is a *repository* ?
+So what is a *repository* ??
 
 According to <a href="https://en.wikipedia.org/wiki/Repository_(version_control)"> Wikipedia </a>,
 
