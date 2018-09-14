@@ -1,0 +1,48 @@
+---
+title: "hw01_gapminder"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Requirement of the Assignment
+
+Make an R Markdown document that explores a dataset, such as gapminder seen in class. You don't need an extensive exploration in order to get a good grade here; a basic one will do, not unlike the one done in class, which would be considered sufficient (but less so the more verbatim your submission is). Render your R Markdown to the github_document output format. Commit both the .Rmd and .md files and push them to GitHub.
+
+#load the Gapminder database 
+
+```{r}
+library(gapminder)
+```
+
+
+#structure of the object
+```{r}
+str(gapminder)
+```
+
+#explore the database with different functions
+```{r}
+class(gapminder)
+head(gapminder) ## return the first part of the database
+tail(gapminder) ## return the lsat part of the database
+names(gapminder)  ## get the name of the object
+length(gapminder) ## get the length of the factor
+nrow(gapminder) ## number of rows in the database
+summary(gapminder) ## statistical overview
+```
+
+#Extract data  from the database for analysis
+```{r}
+mean(gapminder$lifeExp) ## mean of the lifeExp
+median(gapminder$year) ## median of the year
+var(gapminder$pop) ## variance of population
+```
+
+
+#visualising the data
+```{r}
+plot(lifeExp ~ year, gapminder)  ## plot the graph of lifeExp against the year
+```{r}
