@@ -8,7 +8,7 @@ output:
 
 ## INTRODUCTION
 
-Hello everyone, this is the repository I have created for the course **STAT 545A**
+Hello everyone, this is the repository I have created for the course **STAT 545A**,
 So what is a *repository* ?
 
 According to <a href="https://en.wikipedia.org/wiki/Repository_(version_control)"> Wikipedia </a>,
