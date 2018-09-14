@@ -10,7 +10,7 @@ output:
 
 ### Repository
 
-Hello everyone, this is the repository I have created for the course **STAT 545A**,
+Hello everyone, this is the repository I have created for the course <a ref="http://stat545.com/Classroom/">**STAT 545A**</a>,
 So what is a *repository* ?
 
 According to <a href="https://en.wikipedia.org/wiki/Repository_(version_control)"> Wikipedia </a>,
@@ -36,3 +36,12 @@ Outside school, I have lots of interests:
 + Hiking :sunrise_over_mountains:
 + Classical Music :musical_note:
 + Eating good food :ramen:
+
+#### **Sicily** is the place I want to visit next!
+![alt text](https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Sicily/Sicily%20lead%20image-xlarge.jpg "All of Sicily is a dimension of the imagination.")
+
+### Reading list of the Year
+
+- [x] The Perfect Mother
+- [x] da Vinci Code
+- [ ] Norwegian Wood
